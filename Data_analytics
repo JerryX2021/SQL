@@ -1,1 +1,5 @@
-In this project, I use SQL Server Management Studio to perform data analytics.
+In this project, I use SQL Server Management Studio (SSMS) to perform data analytics.
+
+In SSMS, create a new database. In this case, we name it 'CovidCaseByLGA' as we will later load this data.
+
+
