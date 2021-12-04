@@ -23,6 +23,7 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 8. Use 'Group by' to show the number of cases by acquired sources. We see the date is categorized as four 'acquired' groups, i.e. 'Contact with a confirmed case', 'Under investigation', 'Aquired in Australia, unknown source' and 'Travel overseas'.
 ![image](https://user-images.githubusercontent.com/76986018/144693233-f9ba9463-02b1-472a-b050-104cd2de2c36.png)
 9. Let's save this query results as 'CovidCasesBySource_Ranking.csv' and use Power BI to visualize it.
+![image](https://user-images.githubusercontent.com/76986018/144707154-d42881fe-038f-4506-8ae1-b09666f3ec77.png)
 
 10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look.
 
