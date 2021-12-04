@@ -16,6 +16,19 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 ![image](https://user-images.githubusercontent.com/76986018/144689278-c9bc0f30-df15-481c-be9c-62dd2031581e.png)
 6. These are useful information. It can help planning tailored support for the heavily impacted LGAs. Let's save this query results as 'CovidCasesByLGA_Ranking.csv'. We can use visualisation tools such as Power BI or Tableau to show the data, such as this one. It clearly shows the top 7 LGAs account for more than 50% of total Covid cases.
 ![image](https://user-images.githubusercontent.com/76986018/144692236-f8f7967b-0cfe-4669-8a09-f95b00f0da13.png)
+7. Let's continue explore the data. Load another database 'CovidCasesBySource.csv'. Inspect the data and perform similar steps as above to understand the database. We find the new databse has two columns 'diagnosis_date' and 'acquired', no null values for both columns, a total of 119815 inputs/rows, include data from 2020-01-25 to 2021-11-27.
+![image](https://user-images.githubusercontent.com/76986018/144693096-864b9793-f246-4d90-a7a7-950803f57bfc.png)
+![image](https://user-images.githubusercontent.com/76986018/144693066-f227aeaf-e202-4d0a-bfa6-a0af32d167fc.png)
+![image](https://user-images.githubusercontent.com/76986018/144693143-35286392-91ae-43cf-8f4b-2897f5b55a4d.png)
+8. Use 'Group by' to show the number of cases by acquired sources. We see the date is categorized as four 'acquired' groups, i.e. 'Contact with a confirmed case', 'Under investigation', 'Aquired in Australia, unknown source' and 'Travel overseas'.
+![image](https://user-images.githubusercontent.com/76986018/144693233-f9ba9463-02b1-472a-b050-104cd2de2c36.png)
+9. Let's save this query results as 'CovidCasesBySource_Ranking.csv' and use Power BI to visualize it.
+
+10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look.
+
+
+
+
 
 
 
