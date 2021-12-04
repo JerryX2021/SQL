@@ -12,7 +12,8 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 ![image](https://user-images.githubusercontent.com/76986018/144551704-5799be97-3909-4497-8ca9-cb8236afaea6.png)
 4. Use 'IS NULL' to check whether any empty input exists. It returns nothing after the query (replace diagnosis_date with Localgovernmentarea and query again), meaning there's no null value in both column. It means there're a total 119815 reported covid cases from 2020-01-25 to 2021-11-27 in Victoria.
 ![image](https://user-images.githubusercontent.com/76986018/144552016-e55fd2d6-84a9-4176-8710-7f95c8ec09d5.png)
-5. 
+5. Use 'Group by', 'Count' and 'Order by' to calculate the number of cases for each LGA. It shows the most heavility Covid infected LGAs are 'Hume','Wyndham','Casey' among others.
+![image](https://user-images.githubusercontent.com/76986018/144689278-c9bc0f30-df15-481c-be9c-62dd2031581e.png)
 
 
 
