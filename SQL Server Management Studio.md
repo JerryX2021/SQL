@@ -1,5 +1,7 @@
 In this project, I use SQL Server Management Studio (SSMS) to query the data and perform data analytics.
 
+########## This is a developing project ##########
+
 The Covid-19 data downloaded from the Victorian Department of Health is used. (attached in the Data folder in the main branch)
 In SSMS, create a new database named 'CovidCasesByLGA'. Load the downloaded '.csv' data and build a database.
 
@@ -24,7 +26,10 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 ![image](https://user-images.githubusercontent.com/76986018/144693233-f9ba9463-02b1-472a-b050-104cd2de2c36.png)
 9. Let's save this query results as 'CovidCasesBySource_Ranking.csv' and use Power BI to visualize it. It shows that 'Contact with confirmed case' is the highest acquisition source with a total of 66853 cases, meaning close contact or social interaction are main contributors to community transmission. There are also high case numbers 'under investigation' (47023) and 'Acquired in Australia, unknown source' (4702). It shows the difficulty in identifying source of transmission or maybe the contact tracing is overwhelmed. This is an interesting notice and seems there's a change of how cases sources are reported. We will look into it further shortly. There're relatively small number of cases acquired from 'Travel overseas' (1237). There were border control measures in Australia since 2020 which seems to help reduce imported cases. It would also be interesting to investigate this.
 ![image](https://user-images.githubusercontent.com/76986018/144707154-d42881fe-038f-4506-8ae1-b09666f3ec77.png)
-10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look.
+10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look. Query the number of cases for each acquision source, 'Group by' diagnosis date' Save each query results to '.csv' files.
+![image](https://user-images.githubusercontent.com/76986018/144707983-1de4ca25-bdc1-4ba1-9726-33f0ff2aadac.png)
+11. Use Power BI to visualize the query results. 
+
 
 
 
