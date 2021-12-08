@@ -49,12 +49,16 @@ There're relatively small number of cases acquired from 'Travel overseas' (1237)
 
 ![image](https://user-images.githubusercontent.com/76986018/144707983-1de4ca25-bdc1-4ba1-9726-33f0ff2aadac.png)
 11. It would be good to have query results from each acquisition source 'JOIN' to be a mega table, including five columns which are 'diagnosis_date' and four acquisition sources. Let's see how achieve that.
-
+    We use WITH clause to define temporary relations before we query the final columns needed. 
+    In the WITH clause, we first define a table includes one column 'diagnosis_date' with consecutive dates from '2020-01-25' to '2021-11-27'. This is created as the 'diagnosis_date' quried from the raw data may not be consecutive days.
+    In the WITH clause, we then query the 'diagnosis_date' and 'Count of cases' for each acquisition source.
+    Outside the WITH clause, we query the consecutive 'diagnosis_date' and 'Count of cases' from each acquisition temporary tables, using 'LEFT JOIN' to join the tables.
+    
 ![image](https://user-images.githubusercontent.com/76986018/145184893-a3d5691d-fc83-4734-baba-e607b9b0e998.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183781-dd7da660-6429-4e2d-99de-91e3f1c7aeb5.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183889-8640b153-ff08-474c-84fa-a5cf12e16d84.png)
 
-We obtain the table needed! The table gives the history of diagnosis_date (from 2020-1-25 to 2021-11-27) for each acquisition source.
+    We obtain the table needed! The table gives the history of diagnosis_date (from 2020-1-25 to 2021-11-27) and 'Count of cases' for each acquisition source.
 
 ![image](https://user-images.githubusercontent.com/76986018/145184044-1a2caf68-0641-4d55-80b6-94d4d3d2b83b.png)
 ...
