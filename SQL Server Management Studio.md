@@ -35,9 +35,12 @@ There are also high case numbers 'under investigation' (47023) and 'Acquired in 
 
 There're relatively small number of cases acquired from 'Travel overseas' (1237). There were border control measures in Australia since 2020 which seems to help reduce imported cases. It would also be interesting to investigate this.
 ![image](https://user-images.githubusercontent.com/76986018/144707154-d42881fe-038f-4506-8ae1-b09666f3ec77.png)
-10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look. Query the number of cases for each acquision source, 'Group by' diagnosis date' Save each query results to '.csv' files.
+10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look. Query the number of cases by acquisition source, 'Group by' diagnosis date'. It produces a table with two columns, 'diagnosis_date' and 'Travel overseas' for example.
 ![image](https://user-images.githubusercontent.com/76986018/144707983-1de4ca25-bdc1-4ba1-9726-33f0ff2aadac.png)
-11. Use Power BI to visualize the query results.
+11. It would be good to have query results from each acquisition source 'JOIN' to be a mega table, including five columns which are 'diagnosis_date' and four acquisition source. Let's see how achieve that.
+
+
+12. Use Power BI to visualize the query results.
 
     (More to come shortly, stay tuned!)
 
