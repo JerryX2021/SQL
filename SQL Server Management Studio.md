@@ -66,6 +66,7 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
     In the WITH clause, we then query the 'diagnosis_date' and 'Count of cases' for each acquisition source.
     
     Outside the WITH clause, we query the consecutive 'diagnosis_date' and 'Count of cases' from each acquisition temporary tables, using 'LEFT JOIN' to join the tables.
+    Use ISNULL(column_name,0) to change all 'NULL' values in the selected column to be 0.
     
 ![image](https://user-images.githubusercontent.com/76986018/145184893-a3d5691d-fc83-4734-baba-e607b9b0e998.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183781-dd7da660-6429-4e2d-99de-91e3f1c7aeb5.png)
