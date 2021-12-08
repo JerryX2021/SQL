@@ -58,7 +58,8 @@ There're relatively small number of cases acquired from 'Travel overseas' (1237)
 ![image](https://user-images.githubusercontent.com/76986018/145183781-dd7da660-6429-4e2d-99de-91e3f1c7aeb5.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183889-8640b153-ff08-474c-84fa-a5cf12e16d84.png)
 
-    We obtain the table needed! The table gives the history of diagnosis_date (from 2020-1-25 to 2021-11-27) and 'Count of cases' for each acquisition source.
+    We obtain the table needed! The query gives the history of Covid-19 cases for each consecutive date (from 2020-1-25 to 2021-11-27) from each acquisition source.
+    Let's save this query results as 'CovidCasesBySource_all.csv'
 
 ![image](https://user-images.githubusercontent.com/76986018/145184044-1a2caf68-0641-4d55-80b6-94d4d3d2b83b.png)
 ...
