@@ -82,6 +82,8 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 
 12. Use Power BI to visualize the query results.
 
+![image](https://user-images.githubusercontent.com/76986018/145303086-a26e3f61-baaf-4339-abfb-fb3f4c4cdb50.png)
+
 ![image](https://user-images.githubusercontent.com/76986018/145289649-49d7a3e8-7547-4a5e-a52f-b9e9cff7e28d.png)
 
 
