@@ -38,7 +38,7 @@ There're relatively small number of cases acquired from 'Travel overseas' (1237)
 10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look. Query the number of cases by acquisition source, 'Group by' diagnosis date'. It produces a table with two columns, 'diagnosis_date' and 'Travel overseas' for example.
 ![image](https://user-images.githubusercontent.com/76986018/144707983-1de4ca25-bdc1-4ba1-9726-33f0ff2aadac.png)
 11. It would be good to have query results from each acquisition source 'JOIN' to be a mega table, including five columns which are 'diagnosis_date' and four acquisition sources. Let's see how achieve that.
-![image](https://user-images.githubusercontent.com/76986018/145184626-da6f8a2e-c9f7-4623-af17-d877fcd08ce0.png)
+![image](https://user-images.githubusercontent.com/76986018/145184893-a3d5691d-fc83-4734-baba-e607b9b0e998.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183781-dd7da660-6429-4e2d-99de-91e3f1c7aeb5.png)
 ![image](https://user-images.githubusercontent.com/76986018/145183889-8640b153-ff08-474c-84fa-a5cf12e16d84.png)
 
