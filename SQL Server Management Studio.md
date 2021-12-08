@@ -24,6 +24,9 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 ![image](https://user-images.githubusercontent.com/76986018/144693143-35286392-91ae-43cf-8f4b-2897f5b55a4d.png)
 8. Use 'Group by' to show the number of cases by acquired sources. We see the data is categorized as four 'acquired' groups, i.e. 'Contact with a confirmed case', 'Under investigation', 'Acquired in Australia, unknown source' and 'Travel overseas'.
 ![image](https://user-images.githubusercontent.com/76986018/144693233-f9ba9463-02b1-472a-b050-104cd2de2c36.png)
+   We can pivot the table to show the acquisition source as column names, for example this one.
+![image](https://user-images.githubusercontent.com/76986018/145142207-e26f98e9-02d4-4d43-bca7-cc8202248f48.png)
+
 9. Let's save this query results as 'CovidCasesBySource_Ranking.csv' and use Power BI to visualize it. 
 
 It shows that 'Contact with confirmed case' is the highest acquisition source with a total of 66853 cases, meaning close contact or social interaction are main contributors to community transmission. 
