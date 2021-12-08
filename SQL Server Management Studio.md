@@ -37,8 +37,18 @@ There're relatively small number of cases acquired from 'Travel overseas' (1237)
 ![image](https://user-images.githubusercontent.com/76986018/144707154-d42881fe-038f-4506-8ae1-b09666f3ec77.png)
 10. The acquired sources seem to have a relation with diagnosis_date as well. Let's have a look. Query the number of cases by acquisition source, 'Group by' diagnosis date'. It produces a table with two columns, 'diagnosis_date' and 'Travel overseas' for example.
 ![image](https://user-images.githubusercontent.com/76986018/144707983-1de4ca25-bdc1-4ba1-9726-33f0ff2aadac.png)
-11. It would be good to have query results from each acquisition source 'JOIN' to be a mega table, including five columns which are 'diagnosis_date' and four acquisition source. Let's see how achieve that.
+11. It would be good to have query results from each acquisition source 'JOIN' to be a mega table, including five columns which are 'diagnosis_date' and four acquisition sources. Let's see how achieve that.
+DECLARE @StartDate DATE = '20200125'
+  , @EndDate DATE = '20211127';
 
+WITH new_table AS
+( 
+SELECT  DATEADD(DAY, nbr - 1, @StartDate) AS 'diagnosis_date'
+FROM    ( SELECT    ROW_NUMBER() OVER ( ORDER BY c.object_id ) AS nbr
+          FROM      sys.columns c
+        ) nbrs
+WHERE   nbr - 1 <= DATEDIFF(DAY, @StartDate, @EndDate)
+),
 
 12. Use Power BI to visualize the query results.
 
