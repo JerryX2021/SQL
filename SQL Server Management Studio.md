@@ -96,7 +96,7 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 
 ![image](https://user-images.githubusercontent.com/76986018/145289649-49d7a3e8-7547-4a5e-a52f-b9e9cff7e28d.png)
 
-(It would be interesting to study the effect of vaccination on Covid transimission in a real world scenario. The nex project, stay tuned! :raised_hands:)
+(It would be interesting to study the effect of vaccination on Covid transimission in a real world scenario. The next project, stay tuned! :raised_hands:)
 
 
 
