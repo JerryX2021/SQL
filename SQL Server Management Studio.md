@@ -82,12 +82,22 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 
 12. Use Power BI to visualize the query results.
 
+    The dependence of diagnosed cases on time for each acquisition source illutrates the development of Covid-19 in Victoria. It is a reflection of border control, domestic Covid-19 control measures and contact tracing efforts in the state.
+    
+    The first wave of cases is observed in the first quarter of 2020, driven by returned travelers from overseas. A peak value of 629 overseas cases is reported in March 2020, leading to strict international border controls and quarantine measures which drives the overseas cases down in the second quarter of 2020. The overseas cases remain at low level after that, due to tighten border regulations by the Victorian and the Federal government. There are some surge of cases reported from returned travellers from early 2021, possibly due to worsen Covid situations overseas because of Covid variant such as the Delta variant.
+    
+    The second wave of cases is observed in the third quarter of 2020, driven by community transmissions. This is seeded by overseas cases and especially leaks from hotel quarantine. Peak values of community transimission with 1937 unknow-source cases and 6542 close-contact (with a confirmed case) cases are reporeted in July 2020, leading to a stage 3 lockdown of the Victorian state. The high case number continues to August 2020, with 1358 unknown-source cases and 7009 cases close-contact cases reported, resulting in a stage 4 lockdown implemented. A sharp decrease of cases is reported in September 2020, reflecting the effect of strict Covid contrl measures. The lockdown of Victorian ended in the last quarter of 2020 and low level (neanrly 0) Covid cases are maintained thereafter (till July-2021) due to strong contact tracing efforts and border closures.
+    
+    The third wave of cases is observed from July 2021, when community transimission resurges leading to another hard lockdown in Victoria. The lockdown seems to stable the case numbers, where slow increase of close-contact cases are reported in August 2021. However, some change of Covid-19 control measures start to change from September 2021, due to higher number of people get vaccinated. The community tranmission skyrockets since September 2021 shown by high case numbers 'Under investigation', 'Contact with a confirmed case' and 'Unknown source'. One interesting note is that the cases 'Under investigation' remains 0 throught the pandemic till August 2021, it shows the contact tracing capability is overwhelmed by high case numbers, giving the contact tracing team less time to trace and categorize cases (or resulting in changes of how cases are categorized). A peak of 51734 cases are reported in October, dominated by community transmission.
+    
+    A decline of total cases is observed in November 2021 (though the data is till 27-Nov-2021), compared to that of October 2021. This is a promissing signal, showing the potential effect of vaccination on driving cases numbers down. Both the 'Contact with a confirmed case' and 'Under investigation' cases drop from the October data, though the 'Unknown source' case number continue to increase despite its much smaller value compared with the other two. We can be cautiously optimistic based on the current data, but more time is needed to observe the Covid situation and draw a full picture. 
+    
 ![image](https://user-images.githubusercontent.com/76986018/145303086-a26e3f61-baaf-4339-abfb-fb3f4c4cdb50.png)
 
 ![image](https://user-images.githubusercontent.com/76986018/145289649-49d7a3e8-7547-4a5e-a52f-b9e9cff7e28d.png)
 
 
-    (More to come shortly, stay tuned!)
+    (It would be interesting to study the effect of vaccination on Covid transimission in a real world scenario. The nex project, stay tuned! :raised_hands:)
 
 
 
