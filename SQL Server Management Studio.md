@@ -30,7 +30,7 @@ Open a new query in SSMA and use the 'CovidCasesByLGA' for query.
 
 ![image](https://user-images.githubusercontent.com/76986018/144692236-f8f7967b-0cfe-4669-8a09-f95b00f0da13.png)
 
-7. Let's continue explore the data. Load another database 'CovidCasesBySource.csv'. Inspect the data and perform similar steps as above to understand the database. We find the new databse has two columns 'diagnosis_date' and 'acquired', no null values for both columns, a total of 119815 inputs/rows, include data from 2020-01-25 to 2021-11-27.
+7. Let's continue explore the data. Load another database 'CovidCasesBySource.csv'. Inspect the data and perform similar steps as above to understand the database. We find the new database has two columns 'diagnosis_date' and 'acquired', no null values for both columns, a total of 119815 inputs/rows, include data from 2020-01-25 to 2021-11-27.
 
 ![image](https://user-images.githubusercontent.com/76986018/144693096-864b9793-f246-4d90-a7a7-950803f57bfc.png)
 ![image](https://user-images.githubusercontent.com/76986018/144693066-f227aeaf-e202-4d0a-bfa6-a0af32d167fc.png)
